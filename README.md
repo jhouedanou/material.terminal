@@ -1,5 +1,5 @@
 
-![alt text](https://cdn-images-1.medium.com/max/1600/1*peMzZjPaNAIDDAlvC9KdBw.png)
+![Material theme for OS X Terminal](https://cdn-images-1.medium.com/max/1600/1*peMzZjPaNAIDDAlvC9KdBw.png)
 
 Based on the[ monokai color scheme](https://github.com/stephenway/monokai.terminal).
 
