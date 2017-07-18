@@ -1,0 +1,234 @@
+Last login: Mon Jul 17 09:17:05 on console
+You have mail.
+Welcome to fish, the friendly interactive shell
+⋊> ~ cd /Applications/AMPPS/www/                                                             10:20:17
+⋊> /A/A/www ls                                                                               10:22:16
+Contrat de prestation de service - CinetPay - WeDev.doc
+Contrat de prestation de service - Stéphane Barrio - WeDev - BaPy.doc
+bileynet
+cgi-bin
+jdbiley
+jobiley
+jsx
+myhustle
+reacts
+solrebox
+website
+wefly
+wp
+⋊> /A/A/www cd myhustle/                                                                     10:22:19
+⋊> /A/A/w/myhustle l                                                                         10:22:23
+fish: Unknown command 'l'
+⋊> /A/A/w/myhustle ls                                                                        10:22:24
+Archive.zip       fonts             images            quote.html        styles
+bower.json        functions.js      index.html        robots.txt        stylesheets
+browserconfig.xml functions.min.js  js                rtl.css           tile-wide.png
+config.rb         gulpfile.js       manifest.json     sass              tile.png
+css               humans.txt        node_modules      site.webmanifest
+favicon.ico       icon.png          package.json      story.html
+flags             ie.css            print.css         style.css
+⋊> /A/A/w/myhustle gulp                                                                      10:22:26
+[10:22:43] Using gulpfile /Applications/AMPPS/www/myhustle/gulpfile.js
+[10:22:43] Starting 'sprite'...
+[10:22:43] Finished 'sprite' after 16 ms
+[10:22:43] Starting 'sass'...
+[10:22:43] Starting 'js'...
+[10:22:43] Starting 'script'...
+[10:22:43] Starting 'images'...
+[10:22:43] Starting 'browser-sync'...
+[10:22:44] Finished 'browser-sync' after 636 ms
+[10:22:44] Starting 'watch'...
+[10:22:44] Finished 'watch' after 22 ms
+[BS] Access URLs:
+ -------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.1.65:3000
+ -------------------------------------
+          UI: http://localhost:3001
+ UI External: http://192.168.1.65:3001
+ -------------------------------------
+[BS] Serving files from: ./
+[BS] Watching files...
+[BS] Reloading Browsers...
+[10:22:47] Finished 'script' after 3.94 s
+[BS] Reloading Browsers...
+[10:23:34] Finished 'js' after 50 s
+[10:23:34] gulp-imagemin: Minified 2 images (saved 816 kB - 59.6%)
+[10:23:34] Finished 'images' after 50 s
+[10:23:34] Finished 'sass' after 51 s
+[10:23:34] Starting 'default'...
+[10:23:34] Finished 'default' after 2.01 μs
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+[BS] Reloading Browsers...
+^C⏎                                                                                                  ⋊> /A/A/w/myhustle gulp                                                                      10:28:32
+[10:28:41] Using gulpfile /Applications/AMPPS/www/myhustle/gulpfile.js
+[10:28:41] Starting 'sprite'...
+[10:28:41] Finished 'sprite' after 20 ms
+[10:28:41] Starting 'sass'...
+[10:28:41] Starting 'js'...
+[10:28:41] Starting 'script'...
+[10:28:41] Starting 'images'...
+[10:28:41] Starting 'browser-sync'...
+[10:28:41] Finished 'browser-sync' after 345 ms
+[10:28:41] Starting 'watch'...
+[10:28:41] Finished 'watch' after 20 ms
+[BS] Proxying: http://localhost
+[BS] Access URLs:
+ -----------------------------------------------
+       Local: http://localhost:3000/myhustle/
+    External: http://192.168.1.65:3000/myhustle/
+ -----------------------------------------------
+          UI: http://localhost:3001
+ UI External: http://192.168.1.65:3001
+ -----------------------------------------------
+[BS] Watching files...
+[BS] Reloading Browsers...
+[10:28:43] Finished 'script' after 2.46 s
+[BS] Reloading Browsers...
+[10:29:34] Finished 'js' after 54 s
+[10:29:34] gulp-imagemin: Minified 2 images (saved 816 kB - 59.6%)
+[10:29:35] Finished 'sass' after 54 s
+[10:29:35] Finished 'images' after 54 s
+[10:29:35] Starting 'default'...
+[10:29:35] Finished 'default' after 1.94 μs
+^C⏎                                                                                                  ⋊> /A/A/w/myhustle npm install -g brunch                                                     10:35:50
+/usr/local/bin/brunch -> /usr/local/lib/node_modules/brunch/bin/brunch
+
+> fsevents@1.1.2 install /usr/local/lib/node_modules/brunch/node_modules/fsevents
+> node install
+
+[fsevents] Success: "/usr/local/lib/node_modules/brunch/node_modules/fsevents/lib/binding/Release/node-v48-darwin-x64/fse.node" already installed
+Pass --update-binary to reinstall or --build-from-source to recompile
++ brunch@2.10.9
+added 372 packages in 56.006s
+⋊> /A/A/w/myhustle brunch new proj -s es6                             10:39:39
+10:44:05 - log: Cloning git repo "git://github.com/brunch/with-es6.git" to "/Users/mac/.brunch/skeletons/9152c4186024c8cef4830ecf8bc55c7c86af99d3"...
+10:44:06 - log: Cloned "git://github.com/brunch/with-es6.git" into "/Users/mac/.brunch/skeletons/9152c4186024c8cef4830ecf8bc55c7c86af99d3"
+10:44:06 - log: Copying local skeleton to "/Applications/AMPPS/www/myhustle/proj"...
+10:44:06 - log: Created skeleton directory layout
+10:44:06 - info: Installing packages with npm...
+⋊> /A/A/w/myhustle cd ..                                              10:44:37
+⋊> /A/A/www brunch new proj -s es6                                    10:45:41
+10:45:45 - log: Pulling recent changes from git repo "git://github.com/brunch/with-es6.git" to "/Users/mac/.brunch/skeletons/9152c4186024c8cef4830ecf8bc55c7c86af99d3"...
+10:45:45 - log: Pulled master into "/Users/mac/.brunch/skeletons/9152c4186024c8cef4830ecf8bc55c7c86af99d3"
+10:45:45 - log: Copying local skeleton to "/Applications/AMPPS/www/proj"...
+10:45:45 - log: Created skeleton directory layout
+10:45:45 - info: Installing packages with npm...
+⋊> /A/A/www brunch build                                              10:46:18
+10:46:44 - error: The directory does not seem to be a Brunch project. Create brunch-config.js or run brunch from the correct directory. Cannot find module '/Applications/AMPPS/www/brunch-config' 
+10:46:44 - error: Here's a minimal brunch-config.js to get you started:
+
+module.exports = {
+  files: {
+    javascripts: {
+      joinTo: 'app.js'
+    }
+  }
+}; 
+⋊> /A/A/www cd proj                                                   10:46:44
+⋊> /A/A/w/proj brunch build                                           10:46:59
+10:47:05 - info: compiled 2 files into 2 files, copied index.html in 2.3 sec
+⋊> /A/A/w/proj cd /Applications/AMPPS/www/myhustle/                   10:47:05
+⋊> /A/A/w/myhustle ls                                                 10:50:03
+bower.json        functions.js      manifest.json     site.webmanifest
+browserconfig.xml humans.txt        package.json      story.html
+config.rb         icon.png          print.css         style.css
+css               ie.css            quote.html        styles
+favicon.ico       images            robots.txt        stylesheets
+flags             index.html        rtl.css           tile-wide.png
+fonts             js                sass              tile.png
+⋊> /A/A/w/myhustle npm init                                           10:50:05
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (myhustle) 
+version: (1.0.0) 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Applications/AMPPS/www/myhustle/package.json:
+
+{
+  "name": "myhustle",
+  "version": "1.0.0",
+  "description": "Template html pour my hustle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) yes
+⋊> /A/A/w/myhustle ls                                                 10:50:26
+bower.json        functions.js      manifest.json     site.webmanifest
+browserconfig.xml humans.txt        package.json      story.html
+config.rb         icon.png          print.css         style.css
+css               ie.css            quote.html        styles
+favicon.ico       images            robots.txt        stylesheets
+flags             index.html        rtl.css           tile-wide.png
+fonts             js                sass              tile.png
+⋊> /A/A/w/myhustle npm install gulp gulp-sass browser-sync            10:51:22
+                   
+npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+
+> node-sass@4.5.3 install /Applications/AMPPS/www/myhustle/node_modules/node-sass
+> node scripts/install.js
+
+Cached binary found at /Users/mac/.npm/node-sass/4.5.3/darwin-x64-48_binding.node
+
+> fsevents@1.1.2 install /Applications/AMPPS/www/myhustle/node_modules/fsevents
+> node install
+
+[fsevents] Success: "/Applications/AMPPS/www/myhustle/node_modules/fsevents/lib/binding/Release/node-v48-darwin-x64/fse.node" already installed
+Pass --update-binary to reinstall or --build-from-source to recompile
+
+> node-sass@4.5.3 postinstall /Applications/AMPPS/www/myhustle/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /Applications/AMPPS/www/myhustle/node_modules/node-sass/vendor/darwin-x64-48/binding.node
+Testing binary
+Binary is fine
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN myhustle@1.0.0 No repository field.
+
++ gulp@3.9.1
++ gulp-sass@3.1.0
++ browser-sync@2.18.12
+added 619 packages in 82.146s
+⋊> /A/A/w/myhustle touch gulpfile.js                                  10:52:50
+⋊> /A/A/w/myhustle subl gulpfile.js                                   10:53:57
+⋊> /A/A/w/myhustle gulp                                               10:54:04
+[10:55:27] Using gulpfile /Applications/AMPPS/www/myhustle/gulpfile.js
+[10:55:27] Starting 'sass'...
+[10:55:27] Finished 'sass' after 13 ms
+[10:55:27] Starting 'browser-sync'...
+[10:55:28] Finished 'browser-sync' after 884 ms
+[10:55:28] Starting 'default'...
+[10:55:28] Finished 'default' after 8.15 ms
+[BS] Access URLs:
+ -------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.1.65:3000
+ -------------------------------------
+          UI: http://localhost:3001
+ UI External: http://192.168.1.65:3001
+ -------------------------------------
+[BS] Serving files from: ./
+[BS] Watching files...
+
